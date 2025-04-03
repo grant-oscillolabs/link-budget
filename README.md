@@ -1,11 +1,11 @@
-# React Template with Vite and Deno
+# Example Link Budget Calculator
 
-This is a GitHub template project to set up a [React](https://react.dev/) app
+This Link Budget Calculator is based on a GitHub template project to set up a [React](https://react.dev/) app
 with TypeScript running on [Deno](https://deno.com). It uses
 [Vite](https://vite.dev) as the dev server and an [oak](https://jsr.io/@oak/oak)
 http server on the backend to serve the built project.
 
-## Features
+## Web App Features
 
 - React with TypeScript on the frontend
 - Vite for the development server
@@ -20,26 +20,6 @@ http server on the backend to serve the built project.
 
 To run this app, you will need to have [Deno](https://docs.deno.com/runtime/)
 installed.
-
-### Installation
-
-1. Create a new repository using this template. From the repository page, click
-   the "Use this template" button in the top right hand of the page:
-
-<img src="https://docs.github.com/assets/cb-76823/images/help/repository/use-this-template-button.png" alt="Use this template button" width="400">
-
-2. Use the Owner dropdown menu to select the account you want to own the
-   repository and set the repository name and visibility.
-
-3. Clone the repository created to your local machine.
-
-```sh
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-> For a step by step guide to using a GitHub template
-> [follow this walkthrough](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ## Install the dependencies
 
@@ -101,7 +81,7 @@ deno test -A
         └── routeStaticFilesFrom.ts
 ```
 
-- `App.tsx`: The main React component
+- `App.tsx`: The main React component and contains the logic for the link budget calculator
 - `main.tsx`: The entry point for the React app
 - `main.ts`: The entry point for the Deno server
 - `main_test.ts`: The test file for the Deno server
