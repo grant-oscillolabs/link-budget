@@ -5,6 +5,8 @@ with TypeScript running on [Deno](https://deno.com). It uses
 [Vite](https://vite.dev) as the dev server and an [oak](https://jsr.io/@oak/oak)
 http server on the backend to serve the built project.
 
+The core logic and code for the link budget calculator is found in `client/src/App.tsx`.
+
 ## Web App Features
 
 - React with TypeScript on the frontend
