@@ -29,5 +29,13 @@
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "react"
+  },
+  "deploy": {
+    "project": "a6dd6f8b-1209-418a-a9b0-218798f7d4df",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "server/main.ts"
   }
 }
